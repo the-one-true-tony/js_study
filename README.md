@@ -1,10 +1,8 @@
 ## Function, methods and constructor calls
 
-Functions are just functions
+Functions are just functions. Methods are object properties that happen to be functions
 
-## Methods are object properties that happen to be functions
-
-Constructors are functions that become new objects (think classes).  Constructors can be utilized by calling a new instance of it
+Constructors are functions that become new objects (think classes). Constructors can be utilized by calling a new instance of it.
 
 ## High order functions
 
