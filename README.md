@@ -21,4 +21,6 @@ Arguments is a key word that returns all the arguments passed into an function. 
 
 ## Generator function
 
-Generator functions are functions that can return multiple values
+Generator functions are functions that can return multiple values. Generator functions will have yield tags in its body and will iterate through each yield and resolve each in order until everything has been resolved.  Once a yield has been resolved it cannot be resolved again.
+
+Generator functions have the syntax function *().  Everytime it spots a yield it will 'yield' the result to the generator have it figure out what it is then return to the spot of the original yield.
