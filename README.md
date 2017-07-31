@@ -24,3 +24,15 @@ Arguments is a key word that returns all the arguments passed into an function. 
 Generator functions are functions that can return multiple values. Generator functions will have yield tags in its body and will iterate through each yield and resolve each in order until everything has been resolved.  Once a yield has been resolved it cannot be resolved again.
 
 Generator functions have the syntax function *().  Everytime it spots a yield it will 'yield' the result to the generator have it figure out what it is then return to the spot of the original yield.
+
+## Stateful vs. Stateless
+
+A state- less API provides functions or methods whose behavior depends only on their inputs, not on the changing state of the program.
+
+## What's the use of 'use strict' in js
+
+Code errors that would have failed silently will no longer do that.  It will pick up on undefined 'this', prevent global variables and various other things
+
+## How can you reliably test if a value is equal to NaN?
+
+A better solution would either be to use value !== value, which would only produce true if the value is equal to NaN.
