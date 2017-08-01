@@ -36,3 +36,18 @@ Code errors that would have failed silently will no longer do that.  It will pic
 ## How can you reliably test if a value is equal to NaN?
 
 A better solution would either be to use value !== value, which would only produce true if the value is equal to NaN.
+
+## What is a closure
+
+A closure is an inner function that has access to the variables in the outer (enclosing) function’s scope chain. The closure has access to variables in three scopes; specifically: (1) variable in its own scope, (2) variables in the enclosing function’s scope, and (3) global variables.
+
+## What does 1 && 2 return?
+&& returns true or the value of the second value
+
+## What is the output out of the following code? Explain your answer.
+var a={},
+b={key:'b'},
+c={key:'c'};
+a[b]=123;
+a[c]=456;
+console.log(a[b]) = 456;
